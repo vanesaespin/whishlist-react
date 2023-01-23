@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "ejemplo de app con react",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "start": "parcel src/index.html --open"
+  },
   "keywords": [
     "react",
     "daw",
