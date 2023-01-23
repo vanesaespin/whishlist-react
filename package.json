@@ -3,10 +3,15 @@
   "version": "1.0.0",
   "description": "ejemplo de app con react",
   "main": "index.js",
-  "scripts": {
-    
-  },
-  "keywords": ["react", "daw", "dwec"],
+  "scripts": {},
+  "keywords": [
+    "react",
+    "daw",
+    "dwec"
+  ],
   "author": "vanesa espin",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "react": "^18.2.0"
+  }
 }
