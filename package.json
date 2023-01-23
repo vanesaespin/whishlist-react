@@ -1,0 +1,24 @@
+{
+  "name": "whishlist-react",
+  "version": "1.0.0",
+  "description": "ejemplo de app con react",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vanesaespin/whishlist-react.git"
+  },
+  "keywords": [
+    "react",
+    "daw",
+    "dwec"
+  ],
+  "author": "vanesa espin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vanesaespin/whishlist-react/issues"
+  },
+  "homepage": "https://github.com/vanesaespin/whishlist-react#readme"
+}
