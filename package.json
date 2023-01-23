@@ -20,8 +20,5 @@
   "bugs": {
     "url": "https://github.com/vanesaespin/whishlist-react/issues"
   },
-  "homepage": "https://github.com/vanesaespin/whishlist-react#readme",
-  "dependencies": {
-    "react": "^18.2.0"
-  }
+  "homepage": "https://github.com/vanesaespin/whishlist-react#readme"
 }
