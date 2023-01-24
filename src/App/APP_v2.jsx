@@ -1,5 +1,6 @@
-{/*APP CON ESTILOS SENCILLOS Y SIN ESTADOS*/}
+{/*VERSION DEL EJERCICIO USANDO LA LIBRERIA CLASSNAMES*/}
 import React from 'react';
+import classnames from 'classnames';
 import './App.css';
 
 const deseos = [
@@ -18,9 +19,11 @@ const App = () =>
         <input className='deseo-input__field' placeholder='Enter your wish here' />
     </fieldset>
     <ul className='lista-deseos'>
-  
         {deseos.map(({ texto, cumplido }, i) => (
-            <li key={texto} className={`lista-deseos__item ${cumplido ? 'lista-deseos__item--cumplido': ''}`}>
+            <li key={texto} className={classnames(
+                'lista-deseos__item',
+                 { 'lista-deseos__item--cumplido': cumplido}
+            )}>
                 <input id={`deseo${i}`} type="checkbox" checked={cumplido} />
                 <label htmlFor={`deseo${i}`}>{texto}</label>
             </li>
@@ -30,4 +33,4 @@ const App = () =>
     <button type="button" className='deseos-clear'>Archivar deseos cumplidos</button>
 </div>;
 
-export default App; 
+export default App;
