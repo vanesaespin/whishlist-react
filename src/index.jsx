@@ -4,7 +4,7 @@ import App from './App';
 
 
 ReactDom.render(
-   //<div> Mi wishlist de REACT</div>,
-  <App />,
+   <div> Mi wishlist de REACT</div>,
+  //<App />,
   document.getElementById('root'),
 );
