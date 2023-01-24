@@ -4,7 +4,9 @@
   "description": "ejemplo de app con react",
   "main": "index.js",
   "scripts": {
-   
+    "start": " parcel src/index.html --open",
+    "lint": "eslint --fix src/**/*.{js,jsx}",
+    "format": "prettier -write \"*.{js,jsx,json,css}\""
   },
   "keywords": [
     "react",
@@ -12,6 +14,25 @@
     "dwec"
   ],
   "author": "vanesa espin",
-  "license": "MIT"
-  
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vanesaespin/whishlist-react.git"
+  },
+  "dependencies": {
+    "prettier": "^2.8.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.32.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-react": "^7.32.1",
+    "parcel-bundler": "^1.12.5"
+  },
+  "prettier":{
+    "trailingComma": "all",
+    "singleQuote": true,
+    "semi": true
+  }
 }
